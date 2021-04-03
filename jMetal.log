@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-25T04:57:20.573256100Z</date>
+  <millis>1616648240573</millis>
+  <nanos>256100</nanos>
+  <sequence>0</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.JMetalLogger</class>
+  <method>configureLoggers</method>
+  <thread>1</thread>
+  <message>Loggers configured with null</message>
+</record>
+<record>
+  <date>2021-03-25T04:57:20.588902200Z</date>
+  <millis>1616648240588</millis>
+  <nanos>902200</nanos>
+  <sequence>1</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>ga.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Total execution time: 1648768ms</message>
+</record>
+<record>
+  <date>2021-03-25T04:57:20.588902200Z</date>
+  <millis>1616648240588</millis>
+  <nanos>902200</nanos>
+  <sequence>2</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>ga.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Objectives values have been written to file FUN.tsv</message>
+</record>
+<record>
+  <date>2021-03-25T04:57:20.588902200Z</date>
+  <millis>1616648240588</millis>
+  <nanos>902200</nanos>
+  <sequence>3</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>ga.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Variables values have been written to file VAR.tsv</message>
+</record>
+<record>
+  <date>2021-03-25T04:57:20.588902200Z</date>
+  <millis>1616648240588</millis>
+  <nanos>902200</nanos>
+  <sequence>4</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>ga.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Fitness: -0.24768611889369774</message>
+</record>
+</log>

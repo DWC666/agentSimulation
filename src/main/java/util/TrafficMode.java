@@ -1,0 +1,5 @@
+package util;
+
+public enum TrafficMode {
+    CAR, METRO, BUS, WALK, CAR2WALK, WALK2CAR, METRO2WALK, WALK2METRO, BUS2WALK, WALK2BUS;
+}

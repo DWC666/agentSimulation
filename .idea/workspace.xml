@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f09cbfb-ef80-4a46-955a-175007fde14e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k2OF3npMqxp8aIJH3BGWAJv0sg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager" selected="Application.SimulationMain">
+    <configuration name="GA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.GA" />
+      <module name="agent-simulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ga.Main" />
+      <module name="agent-simulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.MyUtils" />
+      <module name="agent-simulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Plot" />
+      <module name="agent-simulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.SimulationMain" />
+      <module name="agent-simulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimulationMain" />
+        <item itemvalue="Application.Plot" />
+        <item itemvalue="Application.MyUtils" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f09cbfb-ef80-4a46-955a-175007fde14e" name="Default Changelist" comment="" />
+      <created>1604895112700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604895112700</updated>
+      <workItem from="1604895116822" duration="8161000" />
+      <workItem from="1605448427041" duration="2991000" />
+      <workItem from="1605495012519" duration="236000" />
+      <workItem from="1605495599608" duration="99000" />
+      <workItem from="1605495728011" duration="26120000" />
+      <workItem from="1606039407066" duration="110676000" />
+      <workItem from="1607834367256" duration="78310000" />
+      <workItem from="1608534537556" duration="42664000" />
+      <workItem from="1611378444252" duration="102495000" />
+      <workItem from="1614435011593" duration="696000" />
+      <workItem from="1614479832772" duration="46000" />
+      <workItem from="1614479892225" duration="94309000" />
+      <workItem from="1615351114417" duration="34672000" />
+      <workItem from="1615624757028" duration="122647000" />
+      <workItem from="1616047184151" duration="71144000" />
+      <workItem from="1616295838671" duration="19416000" />
+      <workItem from="1616583978708" duration="12901000" />
+      <workItem from="1616639519244" duration="4589000" />
+      <workItem from="1616649000076" duration="4402000" />
+      <workItem from="1616679024790" duration="1818000" />
+      <workItem from="1616731285509" duration="4387000" />
+      <workItem from="1616910108800" duration="5340000" />
+      <workItem from="1616933379259" duration="997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1099" y="376" key="#com.intellij.ide.util.MemberChooser" timestamp="1616591864925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1099" y="376" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616591864925" />
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1616922515091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
+    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1616922515091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
+    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1616922515091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
+    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1616922515091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
+    <state width="1877" height="290" key="GridCell.Tab.1.bottom" timestamp="1616240589083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
+    <state width="1877" height="290" key="GridCell.Tab.1.center" timestamp="1616240589083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
+    <state width="1877" height="290" key="GridCell.Tab.1.left" timestamp="1616240589083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
+    <state width="1877" height="290" key="GridCell.Tab.1.right" timestamp="1616240589083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1616595391108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616595391108" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1616652452489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616652452489" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1617435583280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617435583280" />
+    <state x="350" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615265555060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="350" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615265555060" />
+    <state x="455" y="416" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1616144010909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="455" y="416" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1616144010909" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1615380639725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615380639725" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616079263990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616079263990" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/SimulationMain.java</url>
+          <line>699</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/SimulationMain.java</url>
+          <line>718</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/SimulationMain.java</url>
+          <line>1013</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
