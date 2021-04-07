@@ -450,7 +450,7 @@ public class ParkSystem {
                 double driveCost = DijkstraAlgorithm.dijkstra(costMatrix, currentNode, p.getNodeIdForCarMode(), SimulationMain.notCarNodes).cost;
                 //停车场步行到目的地
                 double walkCost = DijkstraAlgorithm.dijkstra(costMatrix, p.getNodeIdForWalkMode(), traveller.getEndNode(), SimulationMain.publicTrafficNodes).cost;
-                //根据开车到停车场成本+步行到目的地的时间（分钟）+ 停车费用 来选择最佳停车场
+                //根据开车到停车场成本+步行到目的地的广义成本来选择最佳停车场
                 double totalCost = driveCost + walkCost;
                 System.out.println("    停车场" + p.getId() + "的成本：" + totalCost);
                 if(totalCost < minCost){

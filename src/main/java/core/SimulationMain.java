@@ -29,7 +29,7 @@ public class SimulationMain {
     private static final int originNum = 2; //起点数量
     private static final int destinationNum = 2; //终点数量
     private static double bookingTravellerPercentage = 0; //预约停车用户百分比
-    private static final double commuterPercentage = 50; //高峰时期通勤出行者百分比
+    private static final double commuterPercentage = 60; //高峰时期通勤出行者百分比
     private static final double highIncomePercentage = 50; //高收入出行者百分比
 
     public static double metroDepartureInterval = 6 * 60; //地铁发车间隔（秒）

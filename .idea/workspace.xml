@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f09cbfb-ef80-4a46-955a-175007fde14e" name="Default Changelist" comment="" />
+    <list default="true" id="9f09cbfb-ef80-4a46-955a-175007fde14e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/ParkSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/ParkSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/SimulationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/SimulationMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1k2OF3npMqxp8aIJH3BGWAJv0sg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -152,6 +159,8 @@
       <workItem from="1616731285509" duration="4387000" />
       <workItem from="1616910108800" duration="5340000" />
       <workItem from="1616933379259" duration="997000" />
+      <workItem from="1617435567988" duration="651000" />
+      <workItem from="1617633679890" duration="2418000" />
     </task>
     <servers />
   </component>
@@ -203,10 +212,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616652452489" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1617435583280">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1617633682607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617435583280" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617633682607" />
     <state x="350" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615265555060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
