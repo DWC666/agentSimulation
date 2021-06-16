@@ -9,11 +9,11 @@ import java.util.List;
 
 public class MyProblem extends AbstractDoubleProblem {
     public MyProblem(){
-        this(6);
+        this(7);
     }
 
     public MyProblem(Integer numberOfVariables){
-        setNumberOfVariables(numberOfVariables);//设定决策变量个数
+        setNumberOfVariables(numberOfVariables);//设定决策变量个数（即停车场数量）
         setNumberOfObjectives(1);//设定优化目标函数个数
         setName("dwc");//给这个问题起名
 
@@ -37,6 +37,6 @@ public class MyProblem extends AbstractDoubleProblem {
         for(int i=0; i<numberOfVariables; i++){
             rate[i] = solution.getVariable(i);
         }
-//        solution.setObjective(0, -1*SimulationMain.simulate(rate));
+        solution.setObjective(0, -1 * SimulationMain.simulate(rate)); //默认是求最小值，求最大值要乘以-1
     }
 }

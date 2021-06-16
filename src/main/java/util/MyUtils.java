@@ -45,18 +45,15 @@ public class MyUtils {
 
     */
 
-    //不能设置为Integer.MAX_VALUE，否则两个Integer.MAX_VALUE相加会溢出导致出现负权
-    public static final int MAXV = 999999;
-    public static final double D_MAX = 999999.0;
-
     public static final double walkSpeed = 1.2; //步行速度（米/秒）
     public static final double metroSpeed = 12; //地铁速度（米/秒）
     public static final double busSpeed = 6.9; //25公里/小时，公交在专用道的速度（米/秒）
 
     //基本OD加载（辆/小时）,
     public static final int[][] baseOD = {
-            {150, 150},
-            {150, 120}
+            {120, 120},
+            {120, 120},
+            {120, 120}
     };
 
 
@@ -109,7 +106,7 @@ public class MyUtils {
      * @return
      */
     public static double[][] getDynamicOD2(int[][] baseOD, int time){
-        baseOD = addOD(baseOD, 1);
+        baseOD = addOD(baseOD, 1.8);
         int rows = baseOD.length;
         int cols = baseOD[0].length;
         double[][] result = new double[rows][cols];
@@ -195,10 +192,10 @@ public class MyUtils {
 
 
     public static void main(String[] args) throws IOException, WriteException {
-        double[] data = new double[1441];
-        for(int i=0; i<=1440; i++){
-            data[i] = fun(i);
+
+        for(int i=0; i<=100; i++){
+            System.out.println(fixedProbabilityReturnTrue(50));
         }
-        ExcelUtil.writeDataToExcel(data);
+
     }
 }

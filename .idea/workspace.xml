@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f09cbfb-ef80-4a46-955a-175007fde14e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FUN.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VAR.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jMetal.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Plot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/ParkSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/ParkSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/SimulationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/SimulationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/MyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/MyProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/DijkstraAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DijkstraAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/GA2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/MyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Plot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Plot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/ParkSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/ParkSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/SimulationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/SimulationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/MyProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/MyProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/DijkstraAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/DijkstraAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/GA2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/MyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/MyUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +69,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Application.SimulationMain">
+  <component name="RunManager" selected="Application.Plot">
     <configuration name="GA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.GA" />
       <module name="agent-simulation" />
@@ -106,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimulationMain" />
         <item itemvalue="Application.Plot" />
-        <item itemvalue="Application.MyUtils" />
+        <item itemvalue="Application.SimulationMain" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyUtils" />
         <item itemvalue="Application.GA" />
       </list>
     </recent_temporary>
@@ -160,7 +179,11 @@
       <workItem from="1616910108800" duration="5340000" />
       <workItem from="1616933379259" duration="997000" />
       <workItem from="1617435567988" duration="651000" />
-      <workItem from="1617633679890" duration="2418000" />
+      <workItem from="1617633679890" duration="2421000" />
+      <workItem from="1620393789592" duration="67092000" />
+      <workItem from="1620745148996" duration="607000" />
+      <workItem from="1623049672976" duration="5254000" />
+      <workItem from="1623849414887" duration="333000" />
     </task>
     <servers />
   </component>
@@ -172,38 +195,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1099" y="376" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616591864925" />
-    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1616922515091">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
-    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1616922515091">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
-    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1616922515091">
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1620713437224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
-    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1616922515091">
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437224" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616922515091" />
-    <state width="1877" height="290" key="GridCell.Tab.1.bottom" timestamp="1616240589083">
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
+    <state width="1877" height="290" key="GridCell.Tab.1.bottom" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
-    <state width="1877" height="290" key="GridCell.Tab.1.center" timestamp="1616240589083">
+    <state width="1877" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
+    <state width="1877" height="290" key="GridCell.Tab.1.center" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
-    <state width="1877" height="290" key="GridCell.Tab.1.left" timestamp="1616240589083">
+    <state width="1877" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
+    <state width="1877" height="290" key="GridCell.Tab.1.left" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
-    <state width="1877" height="290" key="GridCell.Tab.1.right" timestamp="1616240589083">
+    <state width="1877" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
+    <state width="1877" height="290" key="GridCell.Tab.1.right" timestamp="1620713437225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616240589083" />
+    <state width="1877" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620713437225" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1616595391108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,10 +235,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616652452489" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1617633682607">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1623849457674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617633682607" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623849457674" />
     <state x="350" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615265555060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,20 +259,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/core/SimulationMain.java</url>
-          <line>699</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/core/SimulationMain.java</url>
-          <line>718</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/core/SimulationMain.java</url>
-          <line>1013</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/src/main/java/core/ParkSystem.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

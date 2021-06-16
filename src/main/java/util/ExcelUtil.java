@@ -24,7 +24,7 @@ import java.util.Set;
 public class ExcelUtil {
     //不能设置为Integer.MAX_VALUE，否则两个Integer.MAX_VALUE相加会溢出导致出现负权
     public static final int INT_MAX = 999999;
-    public static final double D_MAX = 999999.0;
+    public static final double D_MAX = 99999999.0;
 
     public static class MatrixResult{
         public double[][] lengthMatrix = null;
@@ -48,7 +48,7 @@ public class ExcelUtil {
     private static Sheet getSheet(){
         Sheet sheet = null;
         try{
-            InputStream is = new FileInputStream("E:\\毕业\\map3.xls");
+            InputStream is = new FileInputStream("E:\\毕业\\map-suzhou.xls"); //路网数据文件
             Workbook wb = Workbook.getWorkbook(is); //对应excel文件
             sheet = wb.getSheet(0);
         }catch (IOException e) {

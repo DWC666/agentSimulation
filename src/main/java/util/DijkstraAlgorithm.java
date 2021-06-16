@@ -6,7 +6,7 @@ import java.util.*;
 
 public class DijkstraAlgorithm {
     //不能设置为Integer.MAX_VALUE，否则两个Integer.MAX_VALUE相加会溢出导致出现负权
-    public static int MAX_VALUE = Integer.MAX_VALUE / 2;
+    public static int MAX_VALUE = 99999999;
 
     public static HashSet<Integer> metroNodes = new HashSet<>(Arrays.asList(new Integer[]{6, 7, 8}));
 

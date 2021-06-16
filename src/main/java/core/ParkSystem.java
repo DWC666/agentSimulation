@@ -25,8 +25,8 @@ public class ParkSystem {
     private static final double feeFactor = 0.5; //时间-费用系数
 
     public static final double endNodeParkSearchRound = 1000; //终点处停车场搜寻范围（米）
-    public static final double bookingFeeUpdateStep = 1; //预约费更新频率
-    private static final int[] parkingLotIDs = {2,3,4,5}; //需要更新预约费用的停车场编号
+    public static final double bookingFeeUpdateStep = 1; //费用更新步长
+    private static final int[] parkingLotIDs = {3,4,5,6}; //需要更新费用的停车场编号
     private static final int INT_MAX = 9999999;
 
     //用于记录数据
@@ -65,15 +65,15 @@ public class ParkSystem {
      * @param m 当前时间
      * @return
      */
-    public static void updateBookingFee(int m){
-        if(m % bookingFeeUpdateStep == 0){
-            for(int i : parkingLotIDs){
-                ParkingLot parkingLot = SimulationMain.parkingLotMap.get(i);
-                double bookingFee = getFee2(parkingLot.getBerthOccupancy());
-                parkingLot.setBookingFee(bookingFee);
-            }
-        }
-    }
+//    public static void updateBookingFee(int m){
+//        if(m % bookingFeeUpdateStep == 0){
+//            for(int i : parkingLotIDs){
+//                ParkingLot parkingLot = SimulationMain.parkingLotMap.get(i);
+//                double bookingFee = getFee2(parkingLot.getBerthOccupancy());
+//                parkingLot.setBookingFee(bookingFee);
+//            }
+//        }
+//    }
 
 
     public static void updateParkFee(int m){
@@ -98,10 +98,10 @@ public class ParkSystem {
         return fixedFee * v;
     }
 
-    public static double getFee2(double occupancy){
-        double v = 1 + alpha * Math.pow(occupancy, beta);
-        return fixedFee * v;
-    }
+//    public static double getFee2(double occupancy){
+//        double v = 1 + alpha * Math.pow(occupancy, beta);
+//        return fixedFee * v;
+//    }
 
 
     public static double cruiseTime(double occupancy, double saturation){
@@ -177,12 +177,13 @@ public class ParkSystem {
             traveller.setBookingParkUser(false);
             return -1;
         }
-        if(driveModeCost < Double.MAX_VALUE){
-            carModeCost.add(driveModeCost);
-        }
-        if(parkAndRideCost < Double.MAX_VALUE){
-            prModeCost.add(parkAndRideCost);
-        }
+
+//        if(driveModeCost < Double.MAX_VALUE){
+//            carModeCost.add(driveModeCost);
+//        }
+//        if(parkAndRideCost < Double.MAX_VALUE){
+//            prModeCost.add(parkAndRideCost);
+//        }
 
 
         //比较两种方案的成本
@@ -195,7 +196,7 @@ public class ParkSystem {
             }
             traveller.setTargetParkingLot(targetParkingLot);
             traveller.setChooseParkAndRide(false);
-
+            return SimulationMain.getNextNodeFromPath(shortestPath1);
         }else{
             logger.info("    选择停车换乘, 目标停车场：" + targetTransferParkingLot.getId());
             traveller.setChooseParkAndRide(true);
@@ -204,9 +205,8 @@ public class ParkSystem {
                 throw new RuntimeException("没有空闲的预约泊位");
             }
             traveller.setTargetParkingLot(targetTransferParkingLot);
+            return SimulationMain.getNextNodeFromPath(shortestPath2);
         }
-
-        return traveller.getStartNode() == 20 ? 0 : 19;
     }
 
 
@@ -317,6 +317,7 @@ public class ParkSystem {
             if(!result){
                 throw new RuntimeException("没有空闲的预约泊位");
             }
+            return SimulationMain.getNextNodeFromPath(shortestPath1);
         }else{
             logger.info("    选择停车换乘，停车场为" + transferParkingLot.getId());
             traveller.setChooseParkAndRide(true);
@@ -325,8 +326,8 @@ public class ParkSystem {
             if(!result){
                 throw new RuntimeException("没有空闲的预约泊位");
             }
+            return SimulationMain.getNextNodeFromPath(shortestPath2);
         }
-        return traveller.getStartNode() == 20 ? 0 : 19;
     }
 
 
@@ -478,15 +479,6 @@ public class ParkSystem {
     }
 
 
-    public static void test(){
-        double[] f = new double[11];
-        double n = 0;
-        for(int j=0; j<11; j++){
-            f[j] = cruiseTime0(n);
-            n += 0.1;
-        }
-        System.out.println(Arrays.toString(f));;
-    }
 
     public static void test1(){
         double[][] f = new double[11][11];

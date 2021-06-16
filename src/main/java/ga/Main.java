@@ -36,8 +36,8 @@ public class Main {
         SelectionOperator<List<DoubleSolution>, DoubleSolution> selection = new BinaryTournamentSelection<DoubleSolution>(
                 new RankingAndCrowdingDistanceComparator<DoubleSolution>());
         algorithm = new GeneticAlgorithmBuilder<>(problem, crossover, mutation)
-                .setPopulationSize(80)
-                .setMaxEvaluations(50)
+                .setPopulationSize(120)
+                .setMaxEvaluations(60)
                 .setSelectionOperator(selection)
                 .build();
         //用AlgorithmRunner运行算法
