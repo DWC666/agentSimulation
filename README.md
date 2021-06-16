@@ -1,0 +1,3 @@
+# agentSimulation
+毕业论文：agent仿真系统
+该仓库代码为硕士论文中开发的Agent仿真系统的完整代码，不包含路网数据
